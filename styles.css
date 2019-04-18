@@ -1,0 +1,21 @@
+.flex{display:flex; justify-content:space-around;}
+div {padding:5px;}
+.submit{height:20px;}
+h1{text-align:center;}
+.blue{ 
+    background-color:cyan;
+    color:white;
+}
+.white{ 
+    background-color:white;
+    color: black;
+}
+.hide{display:none;}
+.reset{ height: 30px;}
+.pic{height:150px;}
+body{font-family: 'Dancing Script', cursive;}
+button{
+    font-family: 'Open Sans Condensed', sans-serif;
+    border-radius:10px;
+    background-color:white;
+}
