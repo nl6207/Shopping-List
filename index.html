@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shopping List</title>
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Open+Sans+Condensed:300" rel="stylesheet">
+    </head>
+    <body>
+        <div class="blue">
+            <h1>Shopping List</h1>
+            <div class="flex">
+                <p>Product image</p>
+                <p>Name of Product</p>
+                <p>Price of Product</p>
+                <p>Items In Cart:<span class="num"></span></p>
+            </div>
+            <div class="list white">
+            </div>
+            <div class="flex">
+                <h3>Total Price: $<span class="ttlprc"></span></h3>
+                <button class="reset">Reset</button>
+            </div>
+        </div>
+        <div  class="flex input">
+            <h4>Image address of product: <input class="url"></h4>             
+            <h4>Name of item: <input class="product"></h4>
+            <h4>Item price:<input class="price"></h4>
+            <div>
+                <button class="submit">Enter</button>
+                <h3 class= "missing hide">I think you are missing something.</h3>
+            </div>
+        </div>
+        <button class="buy but">Check-out</button>
+        <h1 class="confirm hide">Are you sure you would like to purchase <span
+        class="num hide">0</span> items?</h1>
+        <div class="flex input">
+            <button class="but yes hide">Yes</button>
+            <button class="but no hide">No</button>
+        </div>
+    <button class="reset2 hide">Reset</button>
+    </body>
+    
+</html>
