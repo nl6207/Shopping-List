@@ -6,7 +6,7 @@ console.log(list);
 $(".submit").click(function(){
     var image = $(".url").val();
     var name = $(".product").val();
-    var price = $(".price").val();
+    var price = parseInt($(".price").val());
     if(name === "" || price === ""){
         $(".missing").show();
     } else{
@@ -14,7 +14,6 @@ $(".submit").click(function(){
         $("input").val("");
         $(".missing").hide();
     }
-    parseInt(price);
     parseInt(ttlPrice);
     list.push(name);
     items = list.length;
